@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LoginLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="140sp"
+    android:paddingStart="15dp"
+    android:paddingRight="15dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:id="@+id/text"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textColor="#104a60"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login now with your registered username and password"
+        android:gravity="center"
+        android:textSize="9pt"
+        android:paddingVertical="15dp"
+        />
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/cnic"
+            android:text="CNIC"
+            />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint ="Write CNIC"
+                android:background="@drawable/et_resource"
+
+                />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/password"
+        android:text="Password"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/et_resource"
+        android:gravity="left">
+
+        <EditText
+            android:layout_marginStart="10dp"
+            android:layout_marginVertical="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:paddingVertical="10dp"
+            android:background="@drawable/et_secondresource"
+            android:hint="Write Passowrd"
+
+            />
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/eyeimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/baseline_visibility_20"
+            android:layout_gravity="center"
+            ></ImageView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotPassword"
+        android:layout_marginTop="10dp"
+        android:text="Forget password?"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:inputType="textCapCharacters"
+        android:layout_marginHorizontal="15dp"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_resource"
+
+
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an Account?"
+            />
+        <TextView
+            android:paddingStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#84c7d2"
+            android:text="Sign Up"/>
+
+    </LinearLayout>
+</LinearLayout>

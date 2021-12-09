@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UI_WORK</string>
+    <string name="Navigation_Drawer_Open">Open Navigation Drawer</string>
+    <string name="Navigation_Drawer_Closed">Close Navigation Drawer</string>
+</resources>
